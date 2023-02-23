@@ -1,9 +1,16 @@
-click
-cryptography
-Flask
-geoip2
-jsonschema
-PyJWT
-pyotp
-qrcode
-requests
+blinker~=1.2
+# NOTE: avoid celery 4.2, see comments here:
+celery~=4.1.1
+kombu~=4.2.1
+decorator>=4.0.6
+flask
+gevent~=1.1
+gevent_openssl~=1.2
+kombu~=4.2.1,<=4.6.8
+python-memcached~=1.57
+redis~=3.0.0
+werkzeug>=0.9.4
+msgpack~=0.6.1
+
+threadpool~=1.3
+flask-testing~=0.8
